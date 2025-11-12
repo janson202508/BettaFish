@@ -1,0 +1,7 @@
+# 模型、缓存、大文件
+*.bin
+*.pt
+*.pth
+cache/
+logs/
+videos/
