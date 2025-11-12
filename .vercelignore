@@ -18,3 +18,16 @@ videos/
 *.mp4
 *.zip
 *.tar.gz
+# 4.5 GB 模型 & 常见大文件
+*.bin
+*.pt
+*.pth
+*.onnx
+*.embedding
+models/
+cache/
+data/
+videos/
+*.zip
+*.tar.gz
+*.log
