@@ -1040,5 +1040,13 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         logger.info("\n正在关闭应用...")
         cleanup_processes()
-        
+        from flask import Flask, jsonify
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return jsonify(msg="BettaFish is running on Vercel!")
+
+# Vercel 需要名为 app 的 WSGI 对象
     
