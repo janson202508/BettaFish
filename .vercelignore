@@ -1,33 +1,10 @@
-# 模型、缓存、大文件
-*.bin
-*.pt
-*.pth
-cache/
-logs/
-videos/
-# 大文件/目录
-*.bin
-*.pt
-*.onnx
-*.pth
-cache/
-tmp/
-data/
-datasets/
-videos/
-*.mp4
-*.zip
-*.tar.gz
-# 4.5 GB 模型 & 常见大文件
-*.bin
-*.pt
-*.pth
-*.onnx
-*.embedding
-models/
-cache/
-data/
-videos/
-*.zip
-*.tar.gz
-*.log
+# 屏蔽所有大目录/文件
+*
+!api/
+!requirements.txt
+!vercel.json
+!app.py
+!*.py
+!*.json
+!*.txt
+!*.md
