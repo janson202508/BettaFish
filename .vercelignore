@@ -5,3 +5,16 @@
 cache/
 logs/
 videos/
+# 大文件/目录
+*.bin
+*.pt
+*.onnx
+*.pth
+cache/
+tmp/
+data/
+datasets/
+videos/
+*.mp4
+*.zip
+*.tar.gz
