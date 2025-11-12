@@ -15,7 +15,7 @@
 [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/pulls)
 
 [![GitHub License](https://img.shields.io/github/license/666ghj/BettaFish?style=flat-square)](https://github.com/666ghj/BettaFish/blob/main/LICENSE)
-[![Version](https://img.shields.io/badge/version-v1.1.2-green.svg?style=flat-square)](https://github.com/666ghj/BettaFish)
+[![Version](https://img.shields.io/badge/version-v1.2.1-green.svg?style=flat-square)](https://github.com/666ghj/BettaFish)
 [![Docker](https://img.shields.io/badge/Docker-Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://hub.docker.com/)
 
 
@@ -578,20 +578,8 @@ Create new templates in the `ReportEngine/report_template/` directory, and our A
 
 We welcome all forms of contributions!
 
-### How to Contribute
-
-1. **Fork the project** to your GitHub account
-2. **Create Feature branch**: `git checkout -b feature/AmazingFeature`
-3. **Commit changes**: `git commit -m 'Add some AmazingFeature'`
-4. **Push to branch**: `git push origin feature/AmazingFeature`
-5. **Open Pull Request**
-
-### Development Standards
-
-- Code follows PEP8 standards
-- Commit messages use clear Chinese/English descriptions
-- New features need corresponding test cases
-- Update related documentation
+**Please read the following contribution guidelines:**  
+- [CONTRIBUTING-EN.md](./CONTRIBUTING-EN.md)
 
 ## 🦖 Next Development Plan
 
