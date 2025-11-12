@@ -1,20 +1,8 @@
-12:53:52.225 Running build in Washington, D.C., USA (East) – iad1
-12:53:52.226 Build machine configuration: 2 cores, 8 GB
-12:53:52.342 Cloning github.com/janson202508/BettaFish (Branch: main, Commit: 08f418a)
-12:53:52.343 Previous build caches not available.
-12:53:57.750 Cloning completed: 5.406s
-12:53:57.852 Found .vercelignore
-12:53:57.923 Removed 470 ignored files defined in .vercelignore
-12:53:57.923   /.dockerignore
-12:53:57.923   /.env.example
-12:53:57.923   /.git/config
-12:53:57.923   /.git/description
-12:53:57.924   /.git/FETCH_HEAD
-12:53:57.924   /.git/HEAD
-12:53:57.925   /.git/hooks/applypatch-msg.sample
-12:53:57.925   /.git/hooks/commit-msg.sample
-12:53:57.925   /.git/hooks/fsmonitor-watchman.sample
-12:53:57.925   /.git/hooks/post-update.sample
-12:54:00.052 Running "vercel build"
-12:54:00.482 Vercel CLI 48.9.0
-12:54:00.660 Error: Function Runtimes must have a valid version, for example `now-php@1.0.0`.
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/api/app.py"
+    }
+  ]
+}
